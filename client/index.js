@@ -104,8 +104,8 @@ const abi = [
 
 const contract = new web3.eth.Contract(abi, contractAddress);
 
-const account = '0x5B38Da6a701c568545dCfcB03FcB875f56beddC4';  // Замените на ваш адрес
-const privateKey = 'f3076e34f4474eacb0f6131340b884af';  // Замените на ваш приватный ключ
+const account = '0x5B38Da6a701c568545dCfcB03FcB875f56beddC4';  
+const privateKey = 'f3076e34f4474eacb0f6131340b884af'; 
 
 const data = contract.methods.addUser('Alice', 30, true).encodeABI();
 
